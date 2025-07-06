@@ -1,0 +1,76 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+# Uncomment the next line if you want to ignore Cargo.lock in a library
+# Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Rust-specific coverage and profiling
+coverage/
+*.prof
+flamegraph.svg
+perf.data*
+*.trace
+
+# Environment variables (if you add any)
+.env
+.env.local
+
+# Temporary and backup files
+tmp/
+temp/
+*.bak
+*.backup
+**/*.orig
+**/*.rej
+
+# Local configuration files
+config.local.toml
+config.local.json
+
+# Database files (if you add any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated documentation
+/doc/
+docs/_build/
+
+# Local development files
+.local/
+
+# Additional Rust patterns
+*.pdb
+*.exe
+*.dll
+*.so
+*.dylib 
